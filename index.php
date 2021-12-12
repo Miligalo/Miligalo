@@ -42,6 +42,7 @@ $admin = new User("Vlad","123","gmail.com","Odessa");
 $moder12 = new Moderator("Lol","123","lol@gmail.com","Odessa","Moder", "Pro");
 echo $admin->GetInfo();
 echo $moder12->GetInfo();
+echo "Hello";
 
 
 /*$admin->name = 'Vlad ';
